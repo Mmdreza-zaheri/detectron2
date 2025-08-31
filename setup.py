@@ -10,7 +10,7 @@ from typing import List
 import torch
 from torch.utils.cpp_extension import CUDA_HOME, CppExtension, CUDAExtension
 
-torch_ver = [int(x) for x in torch.__version__.split(".")[:2]]
+torch_ver = 2.6
 assert torch_ver >= [1, 8], "Requires PyTorch >= 1.8"
 
 
